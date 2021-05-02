@@ -1,18 +1,18 @@
 <template>
-  <div class="container">
+  <div class="container col-10">
     <div
       class="row justify-content-center align-items-between"
       style="height: calc(100vh - 128px)"
     >
       <div
         id="brand"
-        class="teste col-4 d-flex justify-content-center align-items-center"
+        class="teste col-10 col-md-4 d-flex justify-content-center align-items-center"
       >
         <img class="logo" alt="Wake Up!" src="./assets/Logo.svg" />
       </div>
       <div
         id="message-display"
-        class="col-12 d-flex justify-content-center align-items-center"
+        class="col-10 col-md-12 d-flex justify-content-center align-items-center"
       >
         <p class="message">{{ message }}</p>
       </div>
@@ -149,10 +149,10 @@ export default {
       var button = document.getElementById("action-button");
       message.classList.add("minimize");
       button.classList.add("minimize");
-      brand.classList.replace("col-2", "col-4");
+      brand.classList.replace("col-md-2", "col-md-4");
       setTimeout(() => {
         let sort = Math.floor(Math.random() * this.messages.length);
-        brand.classList.replace("col-4", "col-2");
+        brand.classList.replace("col-md-4", "col-md-2");
         this.message = `" ${this.messages[sort].message} " - ${this.messages[sort].author}.`;
         message.classList.remove("minimize");
         button.classList.remove("minimize");
@@ -195,8 +195,8 @@ body {
     margin 0.5s ease-in-out;
 }
 
-#brand.col-4 {
-  margin-top: 100px;
+#brand.col-md-4 {
+  margin-top: 8rem;
 }
 
 .logo {
