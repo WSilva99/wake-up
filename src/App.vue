@@ -109,7 +109,7 @@ export default {
         },
         {
           message: "“Reclamar não é uma estratégia. É necessário …ão como gostaríamos que ele fosse”",
-          author: "Jeff Bezos. "
+          author: "Jeff Bezos"
         },
         {
           message: "“O sucesso não tem a ver com o lugar de onde …e você está disposto a investir”",
