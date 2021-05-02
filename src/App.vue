@@ -153,7 +153,7 @@ export default {
       setTimeout(() => {
         let sort = Math.floor(Math.random() * this.messages.length);
         brand.classList.replace("col-md-4", "col-md-2");
-        this.message = `" ${this.messages[sort].message} " - ${this.messages[sort].author}.`;
+        this.message = ` ${this.messages[sort].message} - ${this.messages[sort].author}.`;
         message.classList.remove("minimize");
         button.classList.remove("minimize");
       }, 1500);
@@ -161,7 +161,7 @@ export default {
   },
   beforeMount() {
     let sort = Math.floor(Math.random() * this.messages.length);
-    this.message = `" ${this.messages[sort].message} " - ${this.messages[sort].author}.`;
+    this.message = ` ${this.messages[sort].message} - ${this.messages[sort].author}.`;
   },
   mounted() {
     this.getMessage();
