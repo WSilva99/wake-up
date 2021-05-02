@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Figma Project
+See [Figma Projet - WakeUp!](https://www.figma.com/file/5l2B3snXENVW49EK2wP4qM/WakeUp-Finished).
